@@ -34,7 +34,9 @@ Firstly welcome! this is your very first step to deep dive in open source ,here 
 
 #### clone this repository on your local machine
 <br/>
+
 `git clone https://github.com/2devyank/Hackto-Projects.git`
+
 <br/>
 
 ![Screenshot from 2022-10-01 15-59-44](https://user-images.githubusercontent.com/78840243/193405214-9f2f96a5-a5ca-4fbd-82af-225263dc2d28.png)
@@ -46,7 +48,15 @@ Firstly welcome! this is your very first step to deep dive in open source ,here 
 
 `git checkout -b "your branch name"`
 
-- create a new directory for your project 
-- add your project 
-- push your project
-- then finally make a pull request
+#### create a new directory for your project 
+#### add your project
+ 
+`git add .`
+
+`git commit -m "project added"`
+
+#### push your project
+
+`git push`
+
+#### then finally make a pull request
