@@ -64,7 +64,7 @@ function createboard(){
 for(let i=0;i<cardArray.length;i++){
 const card=document.createElement('img')
 card.setAttribute('data-id',i)
-card.setAttribute('src','blank.png')
+card.setAttribute('src','hehe.png')
 card.addEventListener("click",flipcard)
 grid.appendChild(card)
 }
@@ -82,8 +82,8 @@ if(cardschosen[0]===cardschosen[1]){
 cardswon.push(cardschosen)
 }else{
   
-    cards[optionOneId].setAttribute('src','blank.png')
-    cards[optiontwoId].setAttribute('src','blank.png')
+    cards[optionOneId].setAttribute('src','hehe.png')
+    cards[optiontwoId].setAttribute('src','hehe.png')
     alert('Sorry try again')
 }
  cardschosen=[]
