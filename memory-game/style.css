@@ -27,6 +27,18 @@ font-style: normal;
 font-size: 50px;
 font-weight: 800;
 }
+footer{
+    background-color: black;
+    position: absolute;
+    top: 470px;
+    width: 100%;
+}
+footer h2{
+    margin-left: 200px;
+}
+i{
+    cursor: pointer;
+}
 /* #result{
     position: absolute;
 left: 450px;
