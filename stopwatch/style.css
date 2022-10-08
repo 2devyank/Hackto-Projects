@@ -11,7 +11,7 @@ body{
     align-items: center;
     font-family: sans-serif;
     position: relative;
-    background-image: url("time1.jpg");
+    background-color: aqua;
     flex-grow: 1;
 }
 .outer{
